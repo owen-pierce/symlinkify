@@ -9,7 +9,7 @@ paths_prefix=""
 usage() {
     echo "Usage: $0 [-d <target_directory>] [-p <paths_file>] [-x <paths_prefix>]"
     echo "Options:"
-    echo "  -d <target_directory>: Set the target directory for symlinks (default: /home/owen/symlinks)"
+    echo "  -d <target_directory>: Set the target directory for symlinks (default: ~/symlinks)"
     echo "  -p <paths_file>: Set the paths file containing paths to symlink (default: paths.txt)"
     echo "  -x <paths_prefix>: Set a prefix for paths in the paths file"
     exit 1
